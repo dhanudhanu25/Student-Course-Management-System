@@ -1,0 +1,57 @@
+.searchBar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 0 12px;
+  margin-bottom: 1.5rem;
+  max-width: 500px;
+}
+
+.searchBar i {
+  color: var(--text-secondary);
+}
+
+.searchBar input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  padding: 10px 0;
+  color: var(--text-primary);
+  outline: none;
+}
+
+.table {
+  background: var(--card-bg);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.table th {
+  background: var(--bg-color);
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  border-color: var(--border-color);
+}
+
+.table td {
+  vertical-align: middle;
+  border-color: var(--border-color);
+  color: var(--text-primary);
+}
+
+.studentInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.studentInfo img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}

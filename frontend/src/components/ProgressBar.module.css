@@ -1,0 +1,44 @@
+.wrapper {
+  width: 100%;
+}
+
+.labelRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  font-size: 0.85rem;
+}
+
+.label {
+  color: var(--text-secondary);
+}
+
+.percent {
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.track {
+  background: var(--border-color);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.track.sm {
+  height: 6px;
+}
+
+.track.md {
+  height: 10px;
+}
+
+.track.lg {
+  height: 14px;
+}
+
+.fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--primary), #60a5fa);
+  border-radius: 10px;
+  transition: width 0.5s ease;
+}

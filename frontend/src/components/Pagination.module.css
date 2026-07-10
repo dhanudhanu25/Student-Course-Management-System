@@ -1,0 +1,24 @@
+.pagination {
+  margin-top: 2rem;
+}
+
+.pagination .page-link {
+  border-radius: 8px;
+  margin: 0 3px;
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  background: var(--card-bg);
+  min-width: 40px;
+  text-align: center;
+}
+
+.pagination .page-item.active .page-link {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: white;
+}
+
+.pagination .page-link:hover:not(.disabled) {
+  background: var(--primary-light);
+  color: var(--primary);
+}
